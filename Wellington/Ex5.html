@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        div{
+            height: 500px;
+            width: 500px;
+            background-color: rgb(212, 203, 203);
+            margin: 10px; line-height: 25px; text-align: justify; padding: 5px;
+        }
+        p{
+            margin: 15px; line-height: 25px; text-align: justify; padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    
+    <button id="colorButton">Escuro</button>
+    
+    <div id="box">
+         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti quia suscipit natus ad enim earum minus! Recusandae consequatur ipsam tempora eaque, neque fugit ipsum repellat hic pariatur, repellendus assumenda numquam!</p>
+    </div>
+       <script>
+
+        document.getElementById('colorButton').onclick = function () {
+            document.getElementById('box').style.backgroundColor = 'black'
+            document.getElementById('box').style.color = 'white'
+        }
+
+       </script>
+
+</body>
+
+</html>
